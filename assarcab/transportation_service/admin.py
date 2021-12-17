@@ -1,0 +1,22 @@
+from django.contrib import admin
+from .models import *
+admin.site.register(Vehicle_Management)
+admin.site.register(Driver_Mangement)
+admin.site.register(Copartner_Management)
+admin.site.register(Country_Management)
+admin.site.register(State_Management)
+admin.site.register(City_Management)
+admin.site.register(Advertisement_Management)
+admin.site.register(Refral_mangemnt)
+admin.site.register(Notification_to_Driver)
+admin.site.register(Fuel_Mangement)
+admin.site.register(Maintenance_Management)
+admin.site.register(fARE_MGMT)
+admin.site.register(Listing_Management)
+admin.site.register(OUTSTATION)
+admin.site.register(Transaction_Management)
+admin.site.register(LIST_YOUR_VEHICLE_MGMT)
+admin.site.register(Feedback)
+admin.site.register(TERMS_CONDITIONS)
+admin.site.register(PRIVACY_POLICY)
+
